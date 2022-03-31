@@ -6,7 +6,7 @@ h1 {
 #cabecalho {
 line-height: 20px;
 font-family: monospace;
-color:brown;
+color:darkred;
 }
 
 #descricao {
@@ -24,9 +24,29 @@ strong {
 }
 
 #marcos {
-  margin-right: 400px;
+  text-align: center;
 }
 
 h2 {
   color: brown
+}
+
+.listas-habilidades {
+  font-size: 15px;
+}
+
+.picture {
+  border-radius: 50%;
+}
+
+#button {
+  background-color: brown;
+  border-radius: 4px;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: white;
+}
+
+#button:hover {
+  background-color: darkred;
 }
